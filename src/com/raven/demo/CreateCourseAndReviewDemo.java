@@ -1,7 +1,5 @@
 package com.raven.demo;
 
-import javax.swing.tree.ExpandVetoException;
-
 import com.raven.entity.Course;
 import com.raven.entity.Instructor;
 import com.raven.entity.InstructorDetails;
@@ -24,7 +22,7 @@ public class CreateCourseAndReviewDemo {
 					.addAnnotatedClass(Review.class).buildSessionFactory();
 			session = sessionFactory.getCurrentSession();
 			session.beginTransaction();
-			
+
 			// create course
 			Course course = new Course("Pacman - How to score one million point.");
 
