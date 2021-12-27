@@ -12,7 +12,7 @@ import org.hibernate.cfg.Configuration;
 public class CreateCourseAndReviewDemo {
 
 	public static void main(String[] args) throws Exception {
-		System.out.println(">>>>>>> Welcome One-To-Many Create Course And Review Demo!!! <<<<<<<<");
+		System.out.println(">>>>>>> Welcome One-To-Many Create Course And Reviews Demo!!! <<<<<<<<");
 		SessionFactory sessionFactory = null;
 		Session session = null;
 
